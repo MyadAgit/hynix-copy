@@ -1,0 +1,15 @@
+/* 여백 초기화 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0}
+
+/* 불릿 초기화 */
+dl,ul,ol,menu,li{list-style:none}
+
+/* 링크 초기화 */
+a{color:#222;text-decoration:none}
+a:hover{color:#ea5d4b;text-decoration:underline}
+a:active{background-color:transparent}
+
+/* 폰트 초기화 */
+
+body,th,td,input,select,textarea,button{font-size:13px;line-height:1.5;font-family: 'Roboto', sans-serif;color:#222;letter-spacing:-1px}
+.os_mac body,.os_mac th,.os_mac td,.os_mac input,.os_mac select,.os_mac textarea,.os_mac button{letter-spacing:0}
