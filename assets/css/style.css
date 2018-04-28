@@ -1,17 +1,16 @@
 /* layout */
 #wrap {width: 100%;}
 #header{width: 100%; height: 95px;}
-#banner {width: 100%; height: 569px; overflow: hidden; background-color: #222;}
-#contents {width: 100%; height: 2000px; background-color: #333;}
+#banner {width: 100%; height: 569px; overflow: hidden;}
+#contents {}
 #footer {width: 100%; height: 300px; background-color: #444;}
 
 /* container */
 .container {width: 1020px; margin: 0 auto; height: inherit; /* background: rgba(0,0,0,0.2); */}
 
 /* contents layout */
-#contents1 {width: 100%; height: 400px; background-color: #e1bee7;}
-#contents2 {width: 100%; height: 400px; background-color: #ce93d8;}
-#contents3 {width: 100%; height: 400px; background-color: #ba68c8;}
+#contents2 {background-color: #f9f7f7;;}
+#contents3 {width: 100%; height: 400px; background-color: #9c27b0;}
 #contents4 {width: 100%; height: 400px; background-color: #ab47bc;}
 #contents5 {width: 100%; height: 400px; background-color: #9c27b0;}
 
@@ -37,3 +36,26 @@
 #banner .banner_icon ul li a {color: #fff;}
 #banner .banner_icon ul li a i {font-size: 20px;}
 #banner .banner_icon ul li span {display: block;}
+
+/* investor */
+.investor {text-align: center; padding: 60px 0 70px;}
+.investor h2 {font-size: 26px;}
+.investor p {color: #666; margin-top: 21px; padding-bottom: 36px;}
+
+.investor .investor_box {overflow: hidden; border-top: 1px solid #eaeaea;}
+.investor .investor_box .ileft {float: left; width: 400px; height: 300px; padding-top: 30px;}
+.investor .investor_box .iright {float: left; width: 619px; height: 300px; border-left: 1px solid #eaeaea;}
+.investor .investor_box .iright ul {overflow: hidden;}
+.investor .investor_box .iright li {float: left; width: 33.333333%; margin-top: 45px;}
+
+.investor .investor_box .iright li a:hover {color: #555;}
+.investor .investor_box .iright li a i {font-size: 30px; background-color: #f3f3f3; padding: 10px; border-radius: 50%; width: 40px; height: 40px; line-height: 40px; color: #ec7768;}
+.investor .investor_box .iright li a span {display: block; font-size: 14px; color: #555; padding-top: 15px;}
+
+/* Corporate */
+.corporate {text-align: center; padding: 60px 0 70px;}
+.corporate h2 {font-size: 26px;}
+.corporate p {color: #666; margin-top: 21px; padding-bottom: 36px;}
+.corporate_box {border-top: 1px solid #e6e6e6; padding-top: 37px;}
+.corporate_box ul {overflow: hidden;}
+.corporate_box li {float: left; width: 33.33333%;}
