@@ -55,7 +55,13 @@
 /* Corporate */
 .corporate {text-align: center; padding: 60px 0 70px;}
 .corporate h2 {font-size: 26px;}
-.corporate p {color: #666; margin-top: 21px; padding-bottom: 36px;}
+.corporate p {color: #666; margin-top: 20px 0 36px;}
+
 .corporate_box {border-top: 1px solid #e6e6e6; padding-top: 37px;}
 .corporate_box ul {overflow: hidden;}
-.corporate_box li {float: left; width: 33.33333%;}
+.corporate_box li {float: left; position: relative; width: 240px; height: 60px; padding: 0 50px; background-color: #ccc;}
+
+.corporate_box li a {}
+.corporate_box li a i {font-size: 30px; position: absolute; left: 0; top: 0; width: 40px; height: 40px; background-color: #000;}
+.corporate_box li a strong {}
+.corporate_box li a span {}
