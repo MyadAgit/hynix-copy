@@ -13,3 +13,6 @@ a:active{background-color:transparent}
 
 body,th,td,input,select,textarea,button{font-size:13px;line-height:1.5;font-family: 'Roboto', sans-serif;color:#222;letter-spacing:-1px}
 .os_mac body,.os_mac th,.os_mac td,.os_mac input,.os_mac select,.os_mac textarea,.os_mac button{letter-spacing:0}
+
+/* 폰트 스타일 초기화 */
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
