@@ -90,9 +90,9 @@
 .global {padding: 60px 0 70px;}
 .global h2 {font-size: 26px; text-align: center; padding-bottom: 30px;}
 .global .glink {text-align: center;}
-.global .glink li {display: inline; padding: 0 10px; background: url(/assets/img/vline1x8.gif) no-repeat 0 4px;}
+.global .glink li {display: inline; padding: 0 10px; background: url(https://github.com/MyadAgit/hynix-copy/blob/master/assets/img/vline1x8.gif) no-repeat 0 4px;}
 .global .glink li:first-child {background: none;}
-.global .global_map {background: url(/assets/img/img_globalmap.png) no-repeat;}
+.global .global_map {background: url(https://github.com/MyadAgit/hynix-copy/blob/master/assets/img/img_globalmap.png) no-repeat;}
 .global .global_map .gmlink {text-align: center; margin-top: -80px;}
 .global .global_map .gmlink li {display: inline;}
 .global .global_map .gmlink li a {padding: 10px; border: 1px solid #c6c6c6; border-radius: 2px; display: inline-block; width: 148px; }
